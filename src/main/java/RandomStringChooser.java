@@ -8,7 +8,7 @@ public class RandomStringChooser
   private ArrayList <String> wordArr;
   public RandomStringChooser(String[] initialArr){
     wordArr = new ArrayList <String>();
-    for(int i=0; i< initialArr.length();i++){
+    for(int i=0; i< initialArr.length;i++){
       wordArr.add(initialArr[i]);
     }
   }
