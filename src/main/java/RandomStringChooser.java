@@ -17,7 +17,6 @@ public class RandomStringChooser
       return "NONE";
     }
     int index=(int)(Math.random()*wordArr.size());
-    return wordArr.get(index);
-    wordArr.remove(index);
+    return wordArr.remove(index);
   }
 }
