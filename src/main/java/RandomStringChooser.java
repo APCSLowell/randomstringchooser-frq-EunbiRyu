@@ -5,9 +5,9 @@ public class RandomStringChooser
   
   //Heads up! 
   //You will get a very confusing error message until you have working code in part b as well
-  private ArrayList <String> wordArr();
+  private ArrayList <String> wordArr;
   public RandomStringChooser(String[] initialArr){
-    wordArr = new ArrayList <String> ();
+    wordArr = new ArrayList <String>();
     for(int i=0; i< initialArr.length();i++){
       wordArr.add(initialArr[i]);
     }
