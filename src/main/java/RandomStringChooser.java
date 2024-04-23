@@ -8,8 +8,8 @@ public class RandomStringChooser
   private ArrayList <String> wordArr;
   public RandomStringChooser(String[] initialArr){
     wordArr = new ArrayList <String>();
-    for(int i=0; i< initialArr.length;i++){
-      wordArr.add(initialArr[i]);
+    for(String w: initialArr){
+      wordArr.add(w);
     }
   }
   public String getNext(){
